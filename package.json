@@ -1,0 +1,17 @@
+{
+  "name": "question-dot",
+  "version": "0.0.1",
+  "description": "CoffeeScript's accessor variant of the existential operator ?. for JavaScript",
+  "scripts": {
+    "test": "make"
+  },
+  "repository": "",
+  "author": "alberto.zaccagni@lazywithclass.com",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "should": "~3.1.2",
+    "sweet.js": "~0.4.1"
+  }
+}
