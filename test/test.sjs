@@ -11,7 +11,9 @@ describe('?.', function(){
     };
 
     should.not.exist(obj?.nonExisting);
+    should.not.exist(undefined?.something);
     (obj?.exist).should.be.true;
     obj?.callme().should.equal('maybe');
   });
+
 });
